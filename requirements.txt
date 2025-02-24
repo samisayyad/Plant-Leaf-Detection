@@ -1,0 +1,13 @@
+tensorflow==2.15.0
+pandas
+numpy 
+scikit-learn
+matplotlib
+seaborn 
+tensorboard
+streamlit
+scikeras
+tensorflow
+keras
+opencv_python_headless
+gdown
