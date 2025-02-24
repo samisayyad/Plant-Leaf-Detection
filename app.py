@@ -4,6 +4,10 @@ import numpy as np
 from PIL import Image
 import gdown
 import os
+if os.path.exists("trained_plant_disease_model.keras"):
+    print("Model found!")
+else:
+    print("Model not found. Check file path!")
 
 file_id = "1-B6plgolaHEdMd428_TnfciiU9CAnnjK"
 url = 'https://drive.google.com/file/d/1-B6plgolaHEdMd428_TnfciiU9CAnnjK/view?usp=drive_link'
